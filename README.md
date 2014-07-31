@@ -13,9 +13,9 @@ Save your data to Sparkfun's [free IoT storage service](https://data.sparkfun.co
 3. Install the Python script's requirements with `pip3 install -r requirements.txt`.
 4. Connect to your Bean with the Bean Loader App.
 5. Program your Bean with `logger_sketch/logger_sketch.ino`.
-6. Use your Bean as a Virtual Serial device by right-clicking on it and selecting the menu option as shown below:
+6. Use your Bean as a Virtual Serial device by right-clicking on it and selecting the menu option. It'll look like this when you're done:
 
-![Bean as Virtual Serial menu](https://www.dropbox.com/s/g63a0zrcj40vfkp/Screenshot%202014-07-30%2019.58.17.png?dl=1)
+![Bean as Virtual Serial menu](http://www.dropbox.com/s/g63a0zrcj40vfkp/Screenshot%202014-07-30%2019.58.17.png?dl=1 =512x)
 
 # Usage
 
