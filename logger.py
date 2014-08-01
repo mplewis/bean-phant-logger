@@ -20,6 +20,11 @@ def read_and_store(bean_serial, phant_endpoint):
         return False
 
     data_split = data.split('\t')
+    if len(data_split) < len(config.DATA_FIELDS):
+        print('Expected %s fields, but only received %s from Bean.' %
+              (len(config.DATA_FIELDS), len(data_split)))
+        return False
+
     print('    %s' % datetime.now())
     for num, field in enumerate(config.DATA_FIELDS):
         print('    %s: %s' % (field, data_split[num]))
